@@ -12,4 +12,6 @@ jobs:
           cd src
           make clean
           make
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
 
