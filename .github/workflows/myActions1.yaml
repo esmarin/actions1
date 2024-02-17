@@ -5,8 +5,8 @@ jobs:
   action1job:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code
-        uses: actions/checkout
+      - name: checkout repo
+        uses: actions/checkout@v4
       - name: build code
         run: |
           cd src
