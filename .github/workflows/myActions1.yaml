@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout
       - name: build code
         run: |
-	  cd src
-	  make clean
-	  make
+          cd src
+          make clean
+          make
 
